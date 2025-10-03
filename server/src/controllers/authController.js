@@ -56,6 +56,7 @@ async function register(req, res) {
     return res.status(201).json({
       message: "Usuario registrado y logueado con éxito",
       user: payload,
+      authenticated: true,
     });
   } catch (error) {
     console.error("Error en register:", error);
@@ -110,6 +111,7 @@ async function login(req, res) {
     return res.json({
       message: "Inicio de sesión exitoso",
       user: payload,
+      authenticated: true,
     });
   } catch (error) {
     console.error("Error en login:", error);

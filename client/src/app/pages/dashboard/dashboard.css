@@ -1,0 +1,132 @@
+.dashboard-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.user-card {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fafafa;
+  text-align: left;
+}
+
+.user-card p {
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+.logout {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout:hover {
+  background: #c0392b;
+}
+
+.dashboard-container {
+  width: 700px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container h2, .dashboard-container h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.user-card {
+  margin-bottom: 2rem;
+}
+
+.user-card p {
+  margin: 0.3rem 0;
+}
+
+
+
+/* Sección de tareas */
+.tasks-section {
+  margin-top: 2rem;
+}
+
+.tasks-section input {
+  padding: 0.6rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.tasks-section input:focus {
+  border-color: #36aeea;
+  outline: none;
+}
+
+.tasks-section button {
+  padding: 0.6rem 1rem;
+  background: #36aeea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tasks-section button:hover {
+  background: #2b8fc2;
+}
+
+/* Tabla de tareas */
+.tasks-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.tasks-section th, .tasks-section td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.tasks-section th {
+  background: #36aeea;
+  color: white;
+  font-weight: bold;
+}
+
+.tasks-section tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.tasks-section tr:hover {
+  background: #f1f1f1;
+}
+
+/* Mensajes de estado */
+.tasks-section div {
+  margin-top: 0.8rem;
+  font-size: 14px;
+  color: #333;
+}
+

@@ -1,0 +1,19 @@
+<div class="auth-container">
+  <h2>Crear Cuenta</h2>
+
+  <form (ngSubmit)="onSubmit()" class="auth-form">
+    <input type="text" [(ngModel)]="name" name="name" placeholder="Nombre" required>
+    <input type="text" [(ngModel)]="lastname" name="lastname" placeholder="Apellido" required>
+    <input type="email" [(ngModel)]="email" name="email" placeholder="Correo electrónico" required>
+    <input type="text" [(ngModel)]="age" name="age" placeholder="Edad" required>
+    <input type="text" [(ngModel)]="address" name="address" placeholder="Dirección" required>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña" required>
+
+    <button type="submit">Registrarse</button>
+  </form>
+
+  <p class="error" *ngIf="error">{{ error }}</p>
+  <p class="success" *ngIf="success">{{ success }}</p>
+  <p class="link">¿Ya tienes cuenta? <a routerLink="/login">Inicia sesión</a></p>
+</div>
+
